@@ -125,6 +125,8 @@ Regards.
 **Q** - Study the Git commit graph shown below. What sequence of Git commands could have resulted in
 this commit graph?
 
+![Git-graph](git-graph.png)
+
 **A** - Hello Customer,
 
 Thanks for contacting GitLab support my name is Michael Sanchez and I will be assisting you. The Git commit graph you provided shows two branches, master and feature. The feature branch was created from the master branch, some commits were made on it, and then it was merged back into the master. For your reference, I will list a sequence of git commands that could have resulted in this commit graph.
