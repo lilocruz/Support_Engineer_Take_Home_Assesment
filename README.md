@@ -3,7 +3,7 @@
 These are my answers for the take-home assessment for the Senior Support Engineer position at GitLab. I will be responding as a support engineer working with the customer to solve their issues. The format of my response will be in the form of (Q) for the questions and (A) for the answers.
 
 
-<p style="color🟦;">Q</p> - Write a Ruby or Bash script that will print usernames of all users on a Linux system together with
+**Q** - Write a Ruby or Bash script that will print usernames of all users on a Linux system together with
 their home directories. Here's some example output:
 gitlab:/home/gitlab
 nobody:/nonexistent
@@ -22,7 +22,7 @@ Next, write a second script that:
     Finally, write a crontab entry that runs these scripts hourly.
     Provide both scripts and the crontab entry for the answer to be complete.
 
-A - Hello Customer,
+**A** - Hello Customer,
 
 Thanks so much for contacting GitLab Support. My name is Michael Sanchez and I will be assisting you. Is my understanding that you are looking for a scripted way of getting the usernames and their home directories from the /etc/passwd and also taking the full output of the first script and converting it to an MD5 hash. Then on its first run stores the MD5 checksum into the /var/log/current_users file. On subsequent runs, if the MD5 checksum changes, the script should add a line in the /var/log/user_changes file with the message, DATE TIME changes occurred, replacing DATE and TIME with appropriate values, and replaces the old MD5 checksum in /var/log/ current_users file with the new MD5 checksum. Last, it will write a crontab entry that runs these scripts hourly. 
 
@@ -70,7 +70,7 @@ Please go ahead and try this script and let us know if it was of any help.
 
 Regards.
 
-Q - A user is complaining that it's taking a long time to load a page on our web application. In your own
+**Q** - A user is complaining that it's taking a long time to load a page on our web application. In your own
 words, write down and discuss the possible cause(s) of the slowness. Also, describe how you would
 begin to troubleshoot this issue.
 
@@ -81,17 +81,17 @@ Keep the following information about the environment in mind:
     8GB RAM, 2 CPU cores, and SSD storage with ample free space.
     You have root access to this Linux box.
 
-A - Hello Customer,
+**A** - Hello Customer,
 
 Thanks for contacting GitLab Support my name is Michael Sanchez and I will be assisting you. Based on your issue there could be several reasons why the web page is loading slowly. Here are some potential causes.
 
-### 1 - If there are many users accessing the application at the same time, it could be causing high CPU usage or memory consumption, slowing down the application.
+1 - If there are many users accessing the application at the same time, it could be causing high CPU usage or memory consumption, slowing down the application.
 
-### 2 - If the application is making a lot of database queries or the queries are complex, it could be slowing down the page load time. The database might also be poorly indexed, causing slow query execution.
+2 - If the application is making a lot of database queries or the queries are complex, it could be slowing down the page load time. The database might also be poorly indexed, causing slow query execution.
 
-### 3 - If the server is located far from the user or if there's network congestion, it could increase the time it takes for data to travel between the server and the user, causing slow page loads.
+3 - If the server is located far from the user or if there's network congestion, it could increase the time it takes for data to travel between the server and the user, causing slow page loads.
 
-### 4 - The application code might have database queries that are taking a long time to execute. This could be due to poor design or lack of optimization.
+4 - The application code might have database queries that are taking a long time to execute. This could be due to poor design or lack of optimization.
 
 With that being said in order to troubleshoot the possible cause I suggest you follow this approach.
 
@@ -122,10 +122,10 @@ Please go ahead and try that and let us know if it was of any help.
 Regards.
 
 
-Q - Study the Git commit graph shown below. What sequence of Git commands could have resulted in
+**Q** - Study the Git commit graph shown below. What sequence of Git commands could have resulted in
 this commit graph?
 
-A - Hello Customer,
+**A** - Hello Customer,
 
 Thanks for contacting GitLab support my name is Michael Sanchez and I will be assisting you. The Git commit graph you provided shows two branches, master and feature. The feature branch was created from the master branch, some commits were made on it, and then it was merged back into the master. For your reference, I will list a sequence of git commands that could have resulted in this commit graph.
 
@@ -164,11 +164,11 @@ This sequence of commands would result in the commit graph. The actual commit me
 Regards.
 
 
-Q - GitLab has hired you to write a Git tutorial for beginners on: Using Git to implement a new
+**Q** - GitLab has hired you to write a Git tutorial for beginners on: Using Git to implement a new
 feature/change without affecting the main branch. In your own words, write a tutorial/blog explaining things in a beginner-friendly way. Make sure to address both the "why" and "how" for each Git command you use. Assume the
 audience are readers of a well-known blog.
 
-A - Hello Customer,
+**A** - Hello Customer,
 
 Thanks for contacting GitLab Support my name is Michael Sanchez and I will be assisting you. You have requested a friendly git tutorial on how to implement a new feature/change without affecting the main branch. I will provide you with guidance and will explain the reasoning behind it. I hope this tutorial will be of any use to you and that you'll find valuable information.
 
@@ -234,10 +234,10 @@ Hope you found your answers in this tutorial.
 
 Regards.
 
-Q - What is a technical book/blog you read recently that you enjoyed? Please include a brief review of
+**Q** - What is a technical book/blog you read recently that you enjoyed? Please include a brief review of
 what you especially liked or didn’t like about it.
 
-A - Hello Customer,
+**A** - Hello Customer,
 
 Thanks for contacting GitLab Support my name is Michael Sanchez and I will be assisting you. You have asked what is that tech book or blog that I'm currently reading and enjying. And also provide a brief review of what I especially liked about it and what I did not like. To answer your question right now I'm reading a few technical books including *Ansible for Real-Life Automation* by Gineesh Madapparambath and I'm also reading few blogs including Adaltas: https://www.adaltas.com/en/2023/06/01/dev-environment-terraform-lxd/.
 
