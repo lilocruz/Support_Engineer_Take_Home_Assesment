@@ -125,7 +125,7 @@ Regards.
 **Q** - Study the Git commit graph shown below. What sequence of Git commands could have resulted in
 this commit graph?
 
-![Git-graph](git-graph.png)
+![Git-graph](https://github.com/lilocruz/Support_Engineer_Take_Home_Assesment/blob/main/git-graph.png)
 
 **A** - Hello Customer,
 
