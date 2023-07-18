@@ -85,13 +85,13 @@ A - Hello Customer,
 
 Thanks for contacting GitLab Support my name is Michael Sanchez and I will be assisting you. Based on your issue there could be several reasons why the web page is loading slowly. Here are some potential causes.
 
-## 1 - If there are many users accessing the application at the same time, it could be causing high CPU usage or memory consumption, slowing down the application.
+### 1 - If there are many users accessing the application at the same time, it could be causing high CPU usage or memory consumption, slowing down the application.
 
-## 2 - If the application is making a lot of database queries or the queries are complex, it could be slowing down the page load time. The database might also be poorly indexed, causing slow query execution.
+### 2 - If the application is making a lot of database queries or the queries are complex, it could be slowing down the page load time. The database might also be poorly indexed, causing slow query execution.
 
-## 3 - If the server is located far from the user or if there's network congestion, it could increase the time it takes for data to travel between the server and the user, causing slow page loads.
+### 3 - If the server is located far from the user or if there's network congestion, it could increase the time it takes for data to travel between the server and the user, causing slow page loads.
 
-## 4 - The application code might have database queries that are taking a long time to execute. This could be due to poor design or lack of optimization.
+### 4 - The application code might have database queries that are taking a long time to execute. This could be due to poor design or lack of optimization.
 
 With that being said in order to troubleshoot the possible cause I suggest you follow this approach.
 
