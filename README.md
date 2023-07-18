@@ -1,4 +1,4 @@
-# Support Engineer Take Home Assessment (GitLab). 
+# Support Engineer Take Home Assessment (GitLab). Michael Sanchez
 
 These are my answers for the take-home assessment for the Senior Support Engineer position at GitLab. I will be responding as a support engineer working with the customer to solve their issues. The format of my response will be in the form of (Q) for the questions and (A) for the answers.
 
